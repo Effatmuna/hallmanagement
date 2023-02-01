@@ -1,0 +1,115 @@
+<!--<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "epayment";
+// Create connection
+$conn = new mysqli($servername, $username, $password,$database);
+
+// Check connection
+if ($conn->connect_error){
+    die("Connection failed: " . $conn->connect_error);
+}
+
+$sql1= "SELECT * from board";
+$result1 = mysqli_query($conn,$sql1);
+
+
+
+?> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/navbar.css">
+   
+    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/menu.css">
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=PT+Serif&family=Rubik+Vinyl&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+   
+    <title>Notice</title>
+</head>
+<body>
+    <!--Header-->
+    
+
+      
+    <navbar class="navbaR">
+        <img class="sust" src="img/sust.png">
+        
+           <div class="navList">
+            
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="">About Us</a>
+                       <img src="img/down-chevron.png" class="dropDownPic">
+                    
+                    <div class="dropdowN">
+                       <a href="aboutUs.html"> <p>History</p></a>
+                       <a href="provost.html"> <p>Provost's Details</p></a>
+                    </div>
+            
+                
+                </li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="menu2.html">Menu</a></li>
+
+                <li><a href="notice.html" active>Notice</a></li>
+                <li><a href="epayment.html">ePayment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+           
+           </div>
+           <div class="Register">
+            <a class="register" href="forom.html">Register</a>
+            <a class="register2" href="logIn.html">Log In</a>
+           </div>
+           <div class="menuBar">
+            <img  src="img/menu.png">
+            </div>
+        </navbar>
+        
+ </header>
+
+<h1>Notices</h1>
+<div class="notice container text-center mt-5">
+<!--<?php
+ $count=1;
+           while($row = mysqli_fetch_assoc($result1))
+           {
+        
+          ?>
+      <h4><?php echo $row['id'],' . ', $row['text'];?></h4>
+   
+  <?php
+         
+           }
+  ?>-->
+  <h4>1. Fee Notice</h4>
+  <h4>2. Pending fee Notice</h4>
+  <h4>3. ABc notice</h4>
+</div>
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+ </body>
+ </html>
