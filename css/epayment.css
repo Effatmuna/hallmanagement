@@ -7,13 +7,7 @@
 header{
     position: sticky !important;
 }
-.header{
-    
-}
-.navbar{
-    
-    
-}
+
 .overflow{
     height:71.7%;
     z-index: -1;
@@ -51,10 +45,7 @@ form{
     
     
 }
-label{
-    
-    
-}
+
 input{
     width: 500px;
     padding:10px;
@@ -71,9 +62,7 @@ border: 1px solid black;
     flex-direction: column;
 }
 
-.depart label{
 
-}
 .Semister{
     display: flex;
     flex-direction: column;
