@@ -435,11 +435,13 @@ background-attachment: fixed;*/
 	width:600px;
 	margin: 0 auto;
 	padding:20px;
-	background:white;
+	background-color:black;
+	opacity: 0.8;
 	margin-top:70px;
 	margin-bottom:50px;
 	box-shadow: 4px 4px  5px rgb(1 1 1 0.1);
 	border-radius:10px;
+	color: white;
 	
 }
 .forom1{

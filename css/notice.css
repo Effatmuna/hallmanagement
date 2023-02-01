@@ -6,20 +6,19 @@ h1{
     display: flex;
     justify-content: center;
     margin: 20px auto auto !important;
-    border-bottom: 2px solid orange;
-    width:200px;
-    font-size: 33px;
-
-    font-weight: bold;
-   
-    font-family: 'Libre Franklin', sans-serif;
-    font-family: 'PT Serif', serif;
-    font-family: 'Rubik Vinyl', cursive;
-    font-family: 'Ubuntu', sans-serif;
+  
+    font-size: 30px !important;
+    font-weight: 650 !important;
 
    
 }
-
+.act{
+    border-bottom:orange 2px solid;
+    width:200px;
+    display: flex;
+    justify-content: center;
+   
+}
 .dropDowN p{
     margin-top: 0px;
 }

@@ -33,9 +33,10 @@ body{
     justify-items: center;
     width:50%;
     border-radius: 10px;
-    background-color:white;
+    background-color:black;
+    opacity: 0.8;
     z-index: 999;
-    color:black;
+    color:white;
     
 }
 form{
@@ -81,14 +82,10 @@ form .depBatch{
     
     
     display: flex;
-    
-   background: white;
     flex-direction: column;
     
 }
-form .depBatch label{
-    
-}
+
 form .depBatch .dep{
     padding:10px;
     border-radius: 5px;
